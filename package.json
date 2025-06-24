@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "first_app",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^6.0.0-rc.6",
@@ -12,11 +12,11 @@
       "./node_modules/@rails/webpacker/package/babel/preset.js"
     ]
   },
-  // "browserslist": [
-  //   "defaults"
-  // ],
-  // "devDependencies": {
-  //   "@webpack-cli/serve": "^3.0.1",
-  //   "webpack-dev-server": "^5.2.2"
-  // }
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@webpack-cli/serve": "^3.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
 }
